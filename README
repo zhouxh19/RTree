@@ -1,0 +1,10 @@
+C# Spatial Index (RTree) Library Modified
+
+Changes:
+	change a few APIs from internal to public
+	add public APIs
+	add .net standard 2.0 project
+	remove Silverlight project from solution
+	
+
+If you need original version, please visit https://github.com/yeroo/RTree

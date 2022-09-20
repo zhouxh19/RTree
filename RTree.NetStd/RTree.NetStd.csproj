@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>RTree</AssemblyName>
+    <RootNamespace>Slb.AvocetVM.Utilities.RTree</RootNamespace>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>RTree.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Desktop\Node.cs" Link="Node.cs" />
+    <Compile Include="..\Desktop\Point.cs" Link="Point.cs" />
+    <Compile Include="..\Desktop\Rectangle.cs" Link="Rectangle.cs" />
+    <Compile Include="..\Desktop\RTree.cs" Link="RTree.cs" />
+  </ItemGroup>
+
+</Project>
